@@ -1,41 +1,19 @@
-/*  your css code here. If applicable */
-body{
-	font-family:Arial,sans-serif;
-	padding:20px;
-	background-color:#f4f4f4;
-	color:#333;
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
 }
-h1 h2{
-	color:#333;
+
+ul {
+  list-style: none;
+  padding-left: 0;
 }
-ul{
-	list-style:none;
-	padding:0;
+
+li {
+  margin-bottom: 10px;
 }
-#product-list li, #cart-list li {
-  margin: 10px 0;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-}
+
 button {
   margin-left: 10px;
-  padding: 5px 10px;
-  background-color: #1976d2;
-  color: white;
-  border: none;
+  padding: 4px 10px;
   cursor: pointer;
-}
-
-button:hover {
-  background-color: #0d47a1;
-}
-
-#clear-cart-btn {
-  margin-top: 20px;
-  background-color: #e53935;
-}
-
-#clear-cart-btn:hover {
-  background-color: #b71c1c;
 }
